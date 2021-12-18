@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   background: lightgrey;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: DarkOliveGreen;
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+input{
+    min-width: 600px;
+    height:2rem;
+    border-radius: 10px 0 10px 0;
+    border: solid 2px DarkOliveGreen;
+    padding-left: 1rem;
+    color: DarkOliveGreen;
+    font-size: 1rem;
+    outline: none;
+}
+
+::placeholder{
+    color: DarkOliveGreen;
+}
+
+button{
+    width: 200px;
+    height: 2rem;
+    background: DarkOliveGreen;
+    border: none;
+
+}
+.todo-value{
+    width: 200px;
+    height: 2rem;
+    padding-left: 1rem;
+    text-align-last: left;
+    line-height: 1.7;
+ }
+ 
+ .todo-delete{
+    width: 200px;
+    height: 2rem;
+    background: DarkOliveGreen;
+    border: none;
+    padding: 6px 40px;
+    line-height: 1.7;
+ }
